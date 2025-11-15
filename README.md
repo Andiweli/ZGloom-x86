@@ -1,46 +1,24 @@
 # ZGloom
 
-A re-implementation of [Amiga FPS Gloom](https://en.wikipedia.org/wiki/Gloom_(video_game)), including support for Zombie Massacre.
+## News
+- Fixed renderer from PSVITA SDL version.
 
-# Screenshots
-
-![font.png](screenshots/font.png)
-![deluxe2.png](screenshots/deluxe2.png)
-![deluxe3.png](screenshots/deluxe3.png)
-![organs.png](screenshots/organs.png)
+# Comparison
+<img width="2000" height="764" alt="gloom-renderer" src="https://github.com/user-attachments/assets/951c4f9a-9c3a-4835-841e-608cf30e1ecb" />
 
 # Instructions
 
-## Windows
-
-There is a pre-compiled inside the [bin](bin) folder or you can use one of the [releases](https://github.com/Swizpig/ZGloom/releases). It needs the VS2013 runtime.
-
-## Linux
-
-1. Install libSDL2, libSDL2_mixer and [libXMP](https://github.com/cmatsuoka/libxmp).
-2. Compile with `make`.
-
-# How to play
+## How to play
 
 Gloom was made freely available by its developers [here](https://github.com/earok/GloomAmiga/archive/master.zip). Download, unzip and move the ZGloom binary inside the uncompressed directory before run it. 
 
-# Default Controls
+## Default Controls
 
 Cursors, left alt to strafe, left ctrl to fire. F1 skips level. F12 toggles fullscreen. PrintScreen dumps a bitmap. Escape pauses the action and shows the menu.
 
-# In-game music
+## In-game music
 
 ZGloom can now add in-game music using any module that XMP can play. Put the mods in the sfxs folder and add "song_blitz.mod" or whatever the module name is to the script. Multiple song_ commands are allowed, allowing per-level music.
-
-# TODO
-
-* Backend of the renderer is mostly mine, and is flaky. There's Z-fighting that doesn't exist in the original, for instance
-* Sound is deafening on occasion, need variable volume playback and priority system
-* Player rotation acceleration
-* Incomplete HUD and infinite lives currently
-* Very basic in-game menu. Much more stuff needs to be configurable
-* No defender sub-game
-* LibXMP's MED playback isn't great on some tunes
 
 # License
 
