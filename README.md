@@ -168,6 +168,6 @@ Instead, it uses alternative imagery such as the Black Magic image.
 
 - Original **Gloom** game and assets by its original Amiga developers  
 - Original PC reimplementation by **Swizpig**  
-- This fork and Windows renderer & overlay work by **andiweli**
+- This fork and Windows renderer & overlay work by **Andiweli**
 
 If you like the project, consider giving the repository a ⭐ star on GitHub – it helps other Amiga and retro-FPS fans discover ZGloom.
